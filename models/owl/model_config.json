@@ -1,0 +1,23 @@
+{
+ "data_set": [
+  "owl.npz"
+ ],
+ "num_epochs": 1000,
+ "max_seq_len": 148,
+ "dec_rnn_size": 512,
+ "enc_rnn_size": 256,
+ "z_size": 128,
+ "kl_weight": 0.5,
+ "kl_weight_start": 0.01,
+ "kl_tolerance": 0.2,
+ "batch_size": 100,
+ "grad_clip": 1.0,
+ "num_mixture": 20,
+ "learning_rate": 0.001,
+ "decay_rate": 0.9999,
+ "kl_decay_rate": 0.99995,
+ "min_learning_rate": 1e-05,
+ "recurrent_dropout_prob": 0.9,
+ "random_scale_factor": 0.15,
+ "conditional": true
+}
