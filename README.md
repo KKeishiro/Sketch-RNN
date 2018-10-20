@@ -35,3 +35,21 @@ If you do not want to install git, you can instead download this repo.
 * Keras 2.2.2
 
 * Python 3.6
+
+# Training a Model
+
+Even though you can find several datasets in `data` folder, I provide the pre-trained model weights only for owl dataset.
+
+Here are some notes: The type of RNN cell is limited to LSTM, even though in the original implementation, you can also use LSTM cell with Layer Normalization and HyperLSTM. And also annealing the KL loss term is not implemented.
+
+### Example Usage:
+
+```
+python train.py --data_dir=dataset_path --log_root=checkpoint_path [--resume_training --weights=weights_path]
+```
+
+For example,
+
+```
+python train.py --log_root=models/elephant
+```
