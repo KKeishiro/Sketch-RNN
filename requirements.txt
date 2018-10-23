@@ -1,0 +1,13 @@
+six
+h5py
+pydot
+ipython
+graphviz
+Keras==2.2.2
+matplotlib==2.0.2
+numpy==1.15.2
+protobuf==3.6.1
+svgwrite==1.1.12
+tensorboard==1.11.0
+tensorflow==1.11.0
+Pillow=5.2.0
