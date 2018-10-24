@@ -53,3 +53,11 @@ For example,
 ```
 python train.py --log_root=models/elephant
 ```
+
+# Example result
+
+![Example result](https://github.com/KKeishiro/Sketch-RNN/blob/master/images/sample.svg)
+
+You can find some sketches are quite recognizable as an owl, but at the same time you can also tell that some are far from an owl. For instance, the second one from the left has four eyes, and the second one from the right is just composed by circles overlapping each other.
+
+I assume this behavior is caused by the lack of training time. However, it also can be considered that the lack of variety of RNN cell and unexecuted KL loss annealing have a considerable impact on the sampling result.
