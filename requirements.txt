@@ -3,6 +3,7 @@ h5py
 pydot
 ipython
 graphviz
+requests
 Keras==2.2.2
 matplotlib==2.0.2
 numpy==1.15.2
